@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Grandstander', cursive;
+}
+
+body {
+  background-color: #24272e;
+}
+
+header {
+  background-color: #589595;
+  padding: 10px;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.score {
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: white;
+  width: 200px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: #589595;
+  font-size: 14px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 2px;
+}
+
+.user-label {
+  position: absolute;
+  left: -25px;
+  top: auto;
+  height: 40%;
+  width: 30%;
+}
+
+.ia-label {
+  position: absolute;
+  right: -25px;
+  top: auto;
+  height: 40%;
+  width: 30%;
+}
+
+#user_score, #pc_score {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.message {
+  font-size: 40px;
+  color: white;
+}
+
+.message > p {
+  text-align: center;
+}
+
+.options {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.choice {
+  display: inline-block;
+  margin: 20px;
+  transition: all 300ms;
+}
+
+.choice:hover {
+  cursor: pointer;
+  transform:scale(1.3);
+  transition: all 300ms;
+}
+
+.choice > img {
+  width: 200px;
+}
+
+.choice > p {
+  color: white;
+  font-size: 25px;
+}
+
+#action {
+  text-align: center;
+  font-family: 'Grandstander';
+  font-size: 30px;
+  color: white;
+}
